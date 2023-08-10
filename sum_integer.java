@@ -1,10 +1,15 @@
+import java.util.Scanner;;
 public class sum_integer
 {
     public static void main(String[] args) {
-        int n =1000;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the no of n");
+        int n = sc.nextInt();
+        
+
         int sum=0;
         int rem;
-        for(int i=0;i<=4;i++)
+          for(int i=n;i>0;i--) // while(n>0) or(for int i =0;i<=4;i++)
         {
              rem = n%10;
              /*
