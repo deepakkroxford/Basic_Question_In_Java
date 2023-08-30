@@ -13,7 +13,7 @@ public class reverse_integer {
         rev= (rev*10)+rem;
         n= n/10;
        }
-       System.out.println("the reversed no we get");
+       System.out.println("the reversed number we get");
        System.out.println(rev);
     }
 }
