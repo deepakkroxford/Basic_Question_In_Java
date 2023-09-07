@@ -8,7 +8,7 @@ public class Fibnacci_series {
       int a = 0;
       int b = 1;
       int c = 0;
-      for (int i = 2; i <= n; i++) {
+      for (int i = 2; i <=n; i++) {
          System.out.println(a);
          c = a + b;
          a = b;
