@@ -5,17 +5,21 @@ public class Fibnacci_series {
       Scanner sc = new Scanner(System.in);
       System.out.println("enter the number");
       int n = sc.nextInt();
+      System.out.println();
       int a = 0;
       int b = 1;
-      int c = 0;
+      int c ;
+      System.out.println(a);
       for (int i = 2; i <=n; i++) {
-         System.out.println(a);
+         System.out.println(b);
+         
          c = a + b;
          a = b;
          b = c;
 
       }
-      System.out.println("the fibnacii of the number is "+c);
+      System.out.println();
+      System.out.println("the fibnacii of the number is "+b);
    }
 }
 
