@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Decimal_to_Binaray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the value of n");
+        System.out.println("enter the decimal number");
         int n = sc.nextInt();
-        
-       
+
         int ans=0;
         int palacevalue = 1;
         while (n>0) {
