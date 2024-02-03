@@ -6,13 +6,13 @@ public class Binary_to_Decimal {
         System.out.println("enter the binary number");
         int n = sc.nextInt();
         int ans =0; int i=0;
-        while(n>0)
+        while(n!=0)
         {
             int rem = n%10;
             ans = ans+ rem * (int)Math.pow(2, i++);
             n=n/10;
 
         }
-        System.out.println("the decimal number be" +ans);
+        System.out.println("the decimal number be " +ans);
     }
 }

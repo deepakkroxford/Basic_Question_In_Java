@@ -8,7 +8,7 @@ public class Decimal_to_Binaray {
 
         int ans=0;
         int palacevalue = 1;
-        while (n>0) {
+        while (n!=0) {
             int rem =n%2;
             ans= ans + rem * palacevalue;
             n=n/2;
