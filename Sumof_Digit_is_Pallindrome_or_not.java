@@ -26,7 +26,6 @@ public class Sumof_Digit_is_Pallindrome_or_not {
             int rem = N % 10;
             sum = sum + rem;
             N = N / 10;
-
         }
         int ans = sum;
         int rev = 0;
