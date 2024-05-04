@@ -6,7 +6,7 @@ public class Sequentail_number {
     public static void main(String[] args) {
 
         /*
-         it start from 1
+         * it start from 1
          * the meaning of the sequrential number is printing the 1 by 1 number
          * like =[12, 23, 34, 45, 56, 67, 78, 89, 123, 234] if we have to print until 0
          * to 300 continus number.
@@ -34,7 +34,7 @@ public class Sequentail_number {
                 nextdigit++; // nextdigit++ = 3 //nextdigit =4 //nextdigit =5 //next digit =4
             }
         }
-        Collections.sort(ans); //we use this because the list is unorder list .
+        Collections.sort(ans); // we use this because the list is unorder list .
         System.out.println(ans);
 
     }

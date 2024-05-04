@@ -23,7 +23,8 @@ public class Set_bit_Rsb {
 
        //-n means 2s complement
 
-        int rmsb = n & -n;
+        int rmsb = (n & -n);
         System.out.println(Integer.toBinaryString(rmsb));
+        
     }
 }
