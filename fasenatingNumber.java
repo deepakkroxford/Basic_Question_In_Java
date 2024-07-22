@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 class fasenating {
     boolean fasenatingnumber(long n)
-         //time complexity is O(nlogn)
+    // time complexity is O(nlogn)
     {
         if (n < 100) {
             return false;
@@ -18,8 +18,7 @@ class fasenating {
         for (int i = 0; i < ans.length(); i++) {
             if (ans.charAt(i) == '0') {
                 continue;
-            }
-            else if (!hs.contains(ans.charAt(i))) {
+            } else if (!hs.contains(ans.charAt(i))) {
                 hs.add(ans.charAt(i));
                 count++;
             } else {
@@ -41,7 +40,6 @@ public class fasenatingNumber {
         long n = sc.nextLong();
         fasenating ans = new fasenating();
         System.out.println(ans.fasenatingnumber(n));
-        
 
     }
 }

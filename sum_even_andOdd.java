@@ -3,9 +3,9 @@ public class sum_even_andOdd {
         int num =552245;
         int evenSum=0;
         int oddSum=0;
-        int arr[]=new int [2];
+        //int arr[]=new int [2];
 		  int rem=0;
-          int sum=0;
+         // int sum=0;
 		 while(num>0)
 		 {
 			 rem=num%10;

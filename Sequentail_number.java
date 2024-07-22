@@ -12,8 +12,8 @@ public class Sequentail_number {
          * to 300 continus number.
          * 
          */
-        int low = 100;
-        int high = 300;
+        int low = 1;
+        int high = 400;
         List<Integer> ans = new ArrayList<>();
 
         for (int i = 1; i <= 9; i++) // i =2;
