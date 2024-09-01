@@ -11,41 +11,29 @@ public class prime_number {
             System.out.println("the number is not prime"+num);
         }
 
-        // if(num>1)
-        // {
-        //     for(int i=1;i<=num;i++)
-        //     {
-        //         if(num%i==0)
-        //         count++;
-        //     }
-        //         if(count==2)
-        //         {
-        //             System.out.println("the number is prime"+num);
-        //         }
-        //         else
-        //         {
-        //             System.out.println("the number is  not prime"+num);
-        //         }
-        // }
+        /*
+         * First approach time complexity O(N);
+         */
+        if(num>1)
+        {
+            for(int i=1;i<=num;i++)
+            {
+                if(num%i==0)
+                count++;
+            }
+                if(count==2)
+                {
+                    System.out.println("the number is prime"+num);
+                }
+                else
+                {
+                    System.out.println("the number is  not prime"+num);
+                }
+        }
 
 
         //2nd approach
-        if(num>1){
-        for(int i =2;i<=num;i++)
-        {
-            if(num%i==0)
-            {
-                count++;
-            }
-        }
-        if(count>2)
-        {
-            System.out.println("the number is not prime"+num);
-        }
-        else{
-            System.out.println(" prime"+num);
-        }
-    }
+      
 
 
     }

@@ -11,7 +11,7 @@ public class prime_factor {
             while(n%i==0)
             {
                 n=n/i;
-                System.out.println(+i);
+                System.out.println(i);
             }
         }
     }
