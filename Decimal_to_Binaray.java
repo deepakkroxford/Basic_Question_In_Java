@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Decimal_to_Binaray {
     public static void main(String[] args) {
@@ -6,14 +6,15 @@ public class Decimal_to_Binaray {
         System.out.println("enter the decimal number");
         int n = sc.nextInt();
 
-        int ans=0;
-        int palacevalue = 1;
-        while (n!=0) {
-            int rem =n%2;
-            ans= ans + rem * palacevalue;
+        int ans =0;
+        int i=0;
+        while(n!=0)
+        {
+            int rem = n%2;
+            ans = (int) (ans+ rem*Math.pow(10,i));
             n=n/2;
-            palacevalue=palacevalue*10;
-
+            i++;
+           
         }
         System.out.println(ans);
     }

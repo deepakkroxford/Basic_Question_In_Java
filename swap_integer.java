@@ -9,12 +9,21 @@ public class swap_integer {
         int b = sc.nextInt();
 
         //swapping 
-        a=a+b;
-        b=a-b;
-        a=a-b;
+        // a=a+b;
+        // b=a-b;
+        // a=a-b;
 
         System.out.println();
         System.out.println("after swapping");
+        System.out.println(a+" "+" "+b);
+
+        // swaping using the xor operation
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+
+        System.out.println();
+        System.out.println("after swapping using XOR");
         System.out.println(a+" "+" "+b);
 
     }
