@@ -28,5 +28,7 @@ public class Armstrog_number {
         {
             System.out.println("no is not armstrong");
         }
+        sc.close();
+        
     }
 }

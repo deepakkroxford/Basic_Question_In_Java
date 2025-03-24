@@ -39,6 +39,7 @@ public class Sumof_Digit_is_Pallindrome_or_not {
         } else {
             System.out.println("not palindrome");
         }
+        sc.close();
 
     }
 }

@@ -22,5 +22,6 @@ public class sum_integer
              n=n/10;
         }
         System.out.println(sum);
+        sc.close();
     }
 }

@@ -14,5 +14,6 @@ public class Binary_to_Decimal {
         n=n/10;
        }
        System.out.println(ans);
+       sc.close();
     }
 }

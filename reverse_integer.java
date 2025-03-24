@@ -15,5 +15,6 @@ public class reverse_integer {
        }
        System.out.println("the reversed number we get");
        System.out.println(rev);
+       sc.close();
     }
 }
