@@ -56,5 +56,6 @@ public class set_bit_Findposition {
          else{
             System.out.println(-1);
          }
+         sc.close();
     }
 }

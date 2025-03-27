@@ -46,6 +46,7 @@ public class Set_Kth_bit {
         maskbit = 1<<k;
         int newnumber = maskbit | n;
         System.out.println(newnumber);
+        sc.close();
 
 
     }

@@ -25,6 +25,7 @@ public class Set_bit_Rsb {
 
         int rmsb = (n & -n);
         System.out.println(Integer.toBinaryString(rmsb));
+        sc.close();
         
     }
 }
